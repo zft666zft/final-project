@@ -52,8 +52,8 @@
         <mxCell id="kBMecehKwhvIWLQXUeUL-17" value="Prediction Time:" style="text;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="kBMecehKwhvIWLQXUeUL-14">
           <mxGeometry x="10" y="70" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kBMecehKwhvIWLQXUeUL-18" value="Start Recognition" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="kBMecehKwhvIWLQXUeUL-8">
-          <mxGeometry x="460" y="560" width="140" height="40" as="geometry" />
+        <mxCell id="kBMecehKwhvIWLQXUeUL-18" value="Start Recognition" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="kBMecehKwhvIWLQXUeUL-14">
+          <mxGeometry x="440" y="60" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
