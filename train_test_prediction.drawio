@@ -1,9 +1,39 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="第 1 页" id="47nqJx89T3lhn33gwV45">
-    <mxGraphModel>
+    <mxGraphModel dx="1221" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hpXuB_5WnMqP-lwsgiMl-1" value="model_train.py" style="shape=ellipse;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="300" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hpXuB_5WnMqP-lwsgiMl-2" value="Purpose: Train the model, validate, and save the best weights." style="shape=rectangle;whiteSpace=wrap;rounded=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="70" y="420" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hpXuB_5WnMqP-lwsgiMl-3" value="model_test.py" style="shape=ellipse;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="300" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hpXuB_5WnMqP-lwsgiMl-4" value="Purpose: Evaluate the model&#39;s performance on a test dataset." style="shape=rectangle;whiteSpace=wrap;rounded=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="370" y="420" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hpXuB_5WnMqP-lwsgiMl-5" value="prediction.py" style="shape=ellipse;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="700" y="300" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hpXuB_5WnMqP-lwsgiMl-6" value="Purpose: Perform single-image predictions for deployment." style="shape=rectangle;whiteSpace=wrap;rounded=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="670" y="420" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hpXuB_5WnMqP-lwsgiMl-7" value="" style="edgeStyle=elbowEdgeStyle;orthogonal=0;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="hpXuB_5WnMqP-lwsgiMl-1" target="hpXuB_5WnMqP-lwsgiMl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpXuB_5WnMqP-lwsgiMl-8" value="" style="edgeStyle=elbowEdgeStyle;orthogonal=0;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="hpXuB_5WnMqP-lwsgiMl-3" target="hpXuB_5WnMqP-lwsgiMl-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpXuB_5WnMqP-lwsgiMl-9" value="Best trained weights" style="text;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="250" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hpXuB_5WnMqP-lwsgiMl-10" value="Test results" style="text;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="250" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
