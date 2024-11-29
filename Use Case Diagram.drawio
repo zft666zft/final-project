@@ -16,14 +16,11 @@
         <mxCell id="YHg5LCT2Mw8mGLbqKmSL-78" value="Train Model" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="60" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YHg5LCT2Mw8mGLbqKmSL-79" value="Validate Model" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="170" width="150" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="YHg5LCT2Mw8mGLbqKmSL-80" value="Save Best Model" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="350" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YHg5LCT2Mw8mGLbqKmSL-81" value="Test Model" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="450" width="150" height="60" as="geometry" />
+          <mxGeometry x="210" y="170" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YHg5LCT2Mw8mGLbqKmSL-82" value="Make Prediction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="540" width="150" height="60" as="geometry" />
@@ -43,14 +40,18 @@
         <mxCell id="YHg5LCT2Mw8mGLbqKmSL-87" style="entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YHg5LCT2Mw8mGLbqKmSL-75" target="YHg5LCT2Mw8mGLbqKmSL-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YHg5LCT2Mw8mGLbqKmSL-88" edge="1" parent="1" source="YHg5LCT2Mw8mGLbqKmSL-75" target="YHg5LCT2Mw8mGLbqKmSL-79">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="YHg5LCT2Mw8mGLbqKmSL-88" edge="1" parent="1" source="YHg5LCT2Mw8mGLbqKmSL-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="209.23076923076906" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="YHg5LCT2Mw8mGLbqKmSL-89" style="entryX=-0.024;entryY=0.389;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YHg5LCT2Mw8mGLbqKmSL-75" target="YHg5LCT2Mw8mGLbqKmSL-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YHg5LCT2Mw8mGLbqKmSL-90" style="entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YHg5LCT2Mw8mGLbqKmSL-75" target="YHg5LCT2Mw8mGLbqKmSL-81">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="YHg5LCT2Mw8mGLbqKmSL-90" style="" edge="1" parent="1" source="YHg5LCT2Mw8mGLbqKmSL-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="440" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="YHg5LCT2Mw8mGLbqKmSL-91" style="" edge="1" parent="1" source="YHg5LCT2Mw8mGLbqKmSL-75">
           <mxGeometry relative="1" as="geometry">
@@ -109,6 +110,9 @@
             <mxPoint x="610" y="55.5" as="sourcePoint" />
             <mxPoint x="761" y="84.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="YHg5LCT2Mw8mGLbqKmSL-117" value="Validate Model" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="430" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
