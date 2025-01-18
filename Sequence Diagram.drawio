@@ -1,9 +1,69 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="第 1 页" id="Be251cCiNaZdMB0es_Bb">
-    <mxGraphModel>
+    <mxGraphModel dx="1221" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MHE91Iy9TCQC35WIHuQ4-94" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="650" width="150" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="MHE91Iy9TCQC35WIHuQ4-95" value="Image Recognition App" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="250" y="650" width="186" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="MHE91Iy9TCQC35WIHuQ4-96" value="AI Model" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="522" y="650" width="150" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="MHE91Iy9TCQC35WIHuQ4-97" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="MHE91Iy9TCQC35WIHuQ4-96">
+          <mxGeometry x="70" y="159" width="10" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="MHE91Iy9TCQC35WIHuQ4-98" value="Image Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="722" y="650" width="150" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="MHE91Iy9TCQC35WIHuQ4-99" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="MHE91Iy9TCQC35WIHuQ4-98">
+          <mxGeometry x="70" y="263" width="10" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="MHE91Iy9TCQC35WIHuQ4-103" value="Upload animal image" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="MHE91Iy9TCQC35WIHuQ4-94" target="MHE91Iy9TCQC35WIHuQ4-95">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="232" y="757" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MHE91Iy9TCQC35WIHuQ4-104" value="Process image" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="MHE91Iy9TCQC35WIHuQ4-95" target="MHE91Iy9TCQC35WIHuQ4-97">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="483" y="809" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MHE91Iy9TCQC35WIHuQ4-105" value="Image features extracted" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="MHE91Iy9TCQC35WIHuQ4-97" target="MHE91Iy9TCQC35WIHuQ4-95">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="484" y="861" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MHE91Iy9TCQC35WIHuQ4-106" value="Search for matching images" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="MHE91Iy9TCQC35WIHuQ4-95" target="MHE91Iy9TCQC35WIHuQ4-99">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="583" y="913" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MHE91Iy9TCQC35WIHuQ4-107" value="Matching images found" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="MHE91Iy9TCQC35WIHuQ4-99" target="MHE91Iy9TCQC35WIHuQ4-95">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="584" y="965" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MHE91Iy9TCQC35WIHuQ4-108" value="Display  image type and detailed information" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="MHE91Iy9TCQC35WIHuQ4-95" target="MHE91Iy9TCQC35WIHuQ4-94">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="235" y="1017" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
