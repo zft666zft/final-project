@@ -1,9 +1,102 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="第 1 页" id="I9IXhqNSPkYjMLzGCQPp">
-    <mxGraphModel>
+    <mxGraphModel dx="1221" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NLVvLS4-208yTbHLQy88-1" value="Start" style="shape=ellipse;" vertex="1" parent="1">
+          <mxGeometry x="375" y="50" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NLVvLS4-208yTbHLQy88-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NLVvLS4-208yTbHLQy88-2" target="NLVvLS4-208yTbHLQy88-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLVvLS4-208yTbHLQy88-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NLVvLS4-208yTbHLQy88-2" target="NLVvLS4-208yTbHLQy88-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="261" y="175" />
+              <mxPoint x="261" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NLVvLS4-208yTbHLQy88-2" value="Data Collection" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="150" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NLVvLS4-208yTbHLQy88-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NLVvLS4-208yTbHLQy88-3" target="NLVvLS4-208yTbHLQy88-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLVvLS4-208yTbHLQy88-3" value="Data Labeling" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="240" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NLVvLS4-208yTbHLQy88-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NLVvLS4-208yTbHLQy88-4" target="NLVvLS4-208yTbHLQy88-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLVvLS4-208yTbHLQy88-4" value="Data Preprocessing" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="350" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NLVvLS4-208yTbHLQy88-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NLVvLS4-208yTbHLQy88-5" target="NLVvLS4-208yTbHLQy88-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLVvLS4-208yTbHLQy88-5" value="Data Augmentation" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="450" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NLVvLS4-208yTbHLQy88-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NLVvLS4-208yTbHLQy88-6" target="NLVvLS4-208yTbHLQy88-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLVvLS4-208yTbHLQy88-6" value="Define Model Architecture" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="550" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NLVvLS4-208yTbHLQy88-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NLVvLS4-208yTbHLQy88-7" target="NLVvLS4-208yTbHLQy88-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLVvLS4-208yTbHLQy88-7" value="Compile Model" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="650" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NLVvLS4-208yTbHLQy88-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NLVvLS4-208yTbHLQy88-8" target="NLVvLS4-208yTbHLQy88-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLVvLS4-208yTbHLQy88-8" value="Train Model" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="750" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NLVvLS4-208yTbHLQy88-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NLVvLS4-208yTbHLQy88-9" target="NLVvLS4-208yTbHLQy88-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLVvLS4-208yTbHLQy88-9" value="Evaluate Model" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="830" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NLVvLS4-208yTbHLQy88-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NLVvLS4-208yTbHLQy88-10" target="NLVvLS4-208yTbHLQy88-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLVvLS4-208yTbHLQy88-10" value="Deploy Model" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="940" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NLVvLS4-208yTbHLQy88-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NLVvLS4-208yTbHLQy88-11" target="NLVvLS4-208yTbHLQy88-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="681" y="965" />
+              <mxPoint x="681" y="775" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NLVvLS4-208yTbHLQy88-11" value="Hyperparameter Tuning" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="940" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NLVvLS4-208yTbHLQy88-12" value="End" style="shape=ellipse;" vertex="1" parent="1">
+          <mxGeometry x="45" y="1050" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NLVvLS4-208yTbHLQy88-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="NLVvLS4-208yTbHLQy88-1" target="NLVvLS4-208yTbHLQy88-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLVvLS4-208yTbHLQy88-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.571;entryY=-0.06;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NLVvLS4-208yTbHLQy88-9" target="NLVvLS4-208yTbHLQy88-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLVvLS4-208yTbHLQy88-24" value="Good Performance" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="830" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NLVvLS4-208yTbHLQy88-25" value="Poor Performance" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="830" width="110" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
