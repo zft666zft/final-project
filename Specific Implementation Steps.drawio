@@ -1,9 +1,161 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="第 1 页" id="15fCGuWCysgzKxlSXWqq">
-    <mxGraphModel>
+    <mxGraphModel dx="1221" dy="-2782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3vkbGSULNWjcCabWlhas-83" value="Maintenance" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="753" y="5008" width="720" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-84" value="Collect new data for retraining" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="3vkbGSULNWjcCabWlhas-83">
+          <mxGeometry x="58" y="43" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-85" value="Monitor system and update regularly" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="3vkbGSULNWjcCabWlhas-83">
+          <mxGeometry x="418" y="43" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-86" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="3vkbGSULNWjcCabWlhas-83" source="3vkbGSULNWjcCabWlhas-84" target="3vkbGSULNWjcCabWlhas-85">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-87" value="Data Preparation" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="774" y="3646" width="678" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-88" value="Collect animal images" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="3vkbGSULNWjcCabWlhas-87">
+          <mxGeometry x="58" y="55" width="218" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-89" value="Annotate images with species" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="3vkbGSULNWjcCabWlhas-87">
+          <mxGeometry x="376" y="43" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-90" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="3vkbGSULNWjcCabWlhas-87" source="3vkbGSULNWjcCabWlhas-88" target="3vkbGSULNWjcCabWlhas-89">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-91" value="Model Design" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="393" y="3869" width="1440" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-92" value="Use convolutional layers for feature detection" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="3vkbGSULNWjcCabWlhas-91">
+          <mxGeometry x="58" y="43" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-93" value="Apply ReLU for non-linearity" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="3vkbGSULNWjcCabWlhas-91">
+          <mxGeometry x="418" y="43" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-94" value="Add pooling layers to reduce feature map size" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="3vkbGSULNWjcCabWlhas-91">
+          <mxGeometry x="778" y="43" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-95" value="Use fully connected layers for classification" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="3vkbGSULNWjcCabWlhas-91">
+          <mxGeometry x="1138" y="43" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-96" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="3vkbGSULNWjcCabWlhas-91" source="3vkbGSULNWjcCabWlhas-92" target="3vkbGSULNWjcCabWlhas-93">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-97" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="3vkbGSULNWjcCabWlhas-91" source="3vkbGSULNWjcCabWlhas-93" target="3vkbGSULNWjcCabWlhas-94">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-98" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="3vkbGSULNWjcCabWlhas-91" source="3vkbGSULNWjcCabWlhas-94" target="3vkbGSULNWjcCabWlhas-95">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-99" value="Training" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="605" y="4092" width="1016" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-100" value="Set cross-entropy as loss function" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="3vkbGSULNWjcCabWlhas-99">
+          <mxGeometry x="58" y="43" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-101" value="Select an optimizer" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="3vkbGSULNWjcCabWlhas-99">
+          <mxGeometry x="418" y="55" width="200" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-102" value="Train with batch processing" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="3vkbGSULNWjcCabWlhas-99">
+          <mxGeometry x="718" y="55" width="256" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-103" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="3vkbGSULNWjcCabWlhas-99" source="3vkbGSULNWjcCabWlhas-100" target="3vkbGSULNWjcCabWlhas-101">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-104" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="3vkbGSULNWjcCabWlhas-99" source="3vkbGSULNWjcCabWlhas-101" target="3vkbGSULNWjcCabWlhas-102">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-105" value="Evaluation" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="754" y="4315" width="719" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-106" value="Validate with a test dataset" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="3vkbGSULNWjcCabWlhas-105">
+          <mxGeometry x="58" y="55" width="259" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-107" value="Measure accuracy and other metrics" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="3vkbGSULNWjcCabWlhas-105">
+          <mxGeometry x="417" y="43" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-108" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="3vkbGSULNWjcCabWlhas-105" source="3vkbGSULNWjcCabWlhas-106" target="3vkbGSULNWjcCabWlhas-107">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-109" value="Optimization" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="753" y="4538" width="720" height="172" as="geometry" />
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-110" value="Tune model parameters like layers and learning rate" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="3vkbGSULNWjcCabWlhas-109">
+          <mxGeometry x="58" y="43" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-111" value="Use dropout or regularization to avoid overfitting" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="3vkbGSULNWjcCabWlhas-109">
+          <mxGeometry x="418" y="43" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-112" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="3vkbGSULNWjcCabWlhas-109" source="3vkbGSULNWjcCabWlhas-110" target="3vkbGSULNWjcCabWlhas-111">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-113" value="Deployment" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="753" y="4785" width="720" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-114" value="Deploy the model for real-time use" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="3vkbGSULNWjcCabWlhas-113">
+          <mxGeometry x="58" y="43" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-115" value="Develop a user-friendly interface" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="3vkbGSULNWjcCabWlhas-113">
+          <mxGeometry x="418" y="43" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-116" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="3vkbGSULNWjcCabWlhas-113" source="3vkbGSULNWjcCabWlhas-114" target="3vkbGSULNWjcCabWlhas-115">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-117" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="3vkbGSULNWjcCabWlhas-87" target="3vkbGSULNWjcCabWlhas-91">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-118" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="3vkbGSULNWjcCabWlhas-91" target="3vkbGSULNWjcCabWlhas-99">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-119" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="3vkbGSULNWjcCabWlhas-99" target="3vkbGSULNWjcCabWlhas-105">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-120" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="3vkbGSULNWjcCabWlhas-105" target="3vkbGSULNWjcCabWlhas-109">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-121" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="3vkbGSULNWjcCabWlhas-109" target="3vkbGSULNWjcCabWlhas-113">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vkbGSULNWjcCabWlhas-122" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="3vkbGSULNWjcCabWlhas-113" target="3vkbGSULNWjcCabWlhas-83">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
